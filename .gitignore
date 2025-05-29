@@ -1,3 +1,11 @@
 # Ignora a pasta ENV 
 env/
 arquivoLixo
+
+**/exemplo.txt
+
+src/util/config.properties
+
+*.html
+
+
