@@ -1,11 +1,14 @@
-# Ignora a pasta ENV 
+# Bloquear a pasta ENV 
 env/
-arquivoLixo
 
-**/exemplo.txt
+# Bloquear a pasta arquivoLixo
+arquivoLixo/
 
+# Bloquear qualquer arquivos exemplo que seja .txt
+**/exemplo*.txt
+
+# Bloquear variaveis de ambiente
 src/util/config.properties
 
-*.html
-
-
+# Bloquear qualquer arquivo HTML
+**/*.html
