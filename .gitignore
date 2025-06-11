@@ -12,3 +12,4 @@ src/util/config.properties
 
 # Bloquear qualquer arquivo HTML
 **/*.html
+
